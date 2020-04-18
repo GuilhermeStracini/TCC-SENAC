@@ -1,4 +1,5 @@
-# projeto-SENAC
+# Projeto SENAC - Curso de informatica
+
 Projeto curso de informática do SENAC (2011) - Módulo Web - Turma NT (noturno)
 
 O projeto consiste em criar um site HTML + CSS + JS sobre uma modalidade de esporte.
