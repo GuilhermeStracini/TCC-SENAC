@@ -17,8 +17,8 @@
 	$assunto = "Canoagem - ".$assunto;
 	$headers = "MIME-Version: 1.1\r\n";
 	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-	$headers .= "From: contato.TurmaNT@zerocool.com.br\r\n"; 				//Colocar aqui o e-mail existente no provedor
-	$headers .= "Return-Path: contato.TurmaNT@zerocool.com.br\r\n";			//Colocar aqui o e-mail existente no provedor
+	$headers .= "From: contato.TurmaNT@zerocool.com.br\r\n";
+	$headers .= "Return-Path: contato.TurmaNT@zerocool.com.br\r\n";
 	if(!mail($destinatario,$assunto,$mensagem,$headers)) echo "Falha no envio da mensagem!";
 	else header("Location: obrigado.html");
 ?>
