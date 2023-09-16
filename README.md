@@ -11,10 +11,22 @@ Projeto do curso técnico de informática do SENAC (2011) - Módulo Web - Turma 
 
 ---
 
-O projeto consiste em criar um site HTML + CSS + JS sobre uma modalidade de esporte.
+O projeto consiste em criar um site `HTML` + `CSS` + `JS` sobre uma modalidade de esporte.
 
 A modalidade escolhida foi `canoagem`.
 
-O projeto utiliza também o `Flash` para exibir vídeos sobre a modalidade de esporte escolhida.
+O projeto também utiliza o `Flash` para exibir vídeos sobre a modalidade de esporte escolhida.
 
-Projeto desenvolvido utilizando: `Adobe Dreamweaver`, `Adobe Fireworks` e `Adobe Flash`.
+Projeto desenvolvido utilizando: `Adobe Dreamweaver`, `Adobe Fireworks` e `Adobe Flash` que eram as ferramentas que eram utilizadas em sala de aula na época.
+
+O projeto se encontra publicado em [https://guilhermebranco.com.br/TCC-SENAC](https://guilhermebranco.com.br/TCC-SENAC)
+
+---
+
+## Layout
+
+![layout.jpg](/Docs/layout.jpg)
+
+## Captura de tela
+
+![print.jpg](/Docs/print.jpg)
