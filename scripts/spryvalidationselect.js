@@ -325,7 +325,7 @@ if (!Spry.Widget.Form.validate) {
 		}
 		return isValid;
 	}
-};
+}
 
 if (!Spry.Widget.Form.onSubmit) {
 	Spry.Widget.Form.onSubmit = function(e, form)
@@ -335,7 +335,7 @@ if (!Spry.Widget.Form.onSubmit) {
 		}
 		return true;
 	};
-};
+}
 
 if (!Spry.Widget.Form.onReset) {
 	Spry.Widget.Form.onReset = function(e, vform)
@@ -349,7 +349,7 @@ if (!Spry.Widget.Form.onReset) {
 		}
 		return true;
 	};
-};
+}
 
 if (!Spry.Widget.Form.destroy) {
 	Spry.Widget.Form.destroy = function(form)
@@ -362,7 +362,7 @@ if (!Spry.Widget.Form.destroy) {
 			}
 		}
 	}
-};
+}
 
 if (!Spry.Widget.Form.destroyAll) {
 	Spry.Widget.Form.destroyAll = function()
@@ -375,7 +375,7 @@ if (!Spry.Widget.Form.destroyAll) {
 			}
 		}
 	}
-};
+}
 
 //////////////////////////////////////////////////////////////////////
 //

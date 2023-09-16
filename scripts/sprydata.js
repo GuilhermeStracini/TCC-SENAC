@@ -704,7 +704,7 @@ Spry.Utils.getNodesByFunc = function(root, func)
 			if (node == root)
 				node = null;
 			else
-				try { node = node.nextSibling; } catch (e) { node = null; };
+				try { node = node.nextSibling; } catch (e) { node = null; }
 		}
 
 		while (!node && nodeStack.length > 0)
