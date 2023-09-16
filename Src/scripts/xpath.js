@@ -180,9 +180,9 @@ var DOM_NOTATION_NODE = 12;
 
 // Dummy implmentation for the logging functions. Replace by something
 // useful when you want to debug.
-function xpathLog(msg) {};
-function xsltLog(msg) {};
-function xsltLogXml(msg) {};
+function xpathLog(msg) {}
+function xsltLog(msg) {}
+function xsltLogXml(msg) {}
 
 // Throws an exception if false.
 function assert(b) {
@@ -229,7 +229,7 @@ function mapExpr(array, func) {
     ret.push(func(array[i]));
   }
   return ret;
-};
+}
 
 // Reverses the given array in place.
 function reverseInplace(array) {
