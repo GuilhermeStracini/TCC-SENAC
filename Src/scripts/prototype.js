@@ -70,7 +70,7 @@ var Class = (function() {
     return true;
   })();
 
-  function subclass() {};
+  function subclass() {}
   function create() {
     var parent = null, properties = $A(arguments);
     if (Object.isFunction(properties[0]))
@@ -1200,7 +1200,7 @@ Array.from = $A;
 })();
 function $H(object) {
   return new Hash(object);
-};
+}
 
 var Hash = Class.create(Enumerable, (function() {
   function initialize(object) {
@@ -4722,7 +4722,7 @@ if ( document.documentElement.compareDocumentPosition ) {
 	var root = document.documentElement;
 	root.insertBefore( form, root.firstChild );
 
-	if ( !!document.getElementById( id ) ) {
+	if ( document.getElementById( id ) ) {
 		Expr.find.ID = function(match, context, isXML){
 			if ( typeof context.getElementById !== "undefined" && !isXML ) {
 				var m = context.getElementById(match[1]);
@@ -4940,7 +4940,7 @@ window.Sizzle = Sizzle;
 
 Prototype._original_property = window.Sizzle;
 
-;(function(engine) {
+(function(engine) {
   var extendElements = Prototype.Selector.extendElements;
 
   function select(selector, scope) {
