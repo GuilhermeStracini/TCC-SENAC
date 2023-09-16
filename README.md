@@ -7,7 +7,9 @@
 [![GitHub license](https://img.shields.io/github/license/GuilhermeStracini/TCC-SENAC)](https://github.com/GuilhermeStracini/TCC-SENAC)
 [![GitHub last commit](https://img.shields.io/github/last-commit/GuilhermeStracini/TCC-SENAC)](https://github.com/GuilhermeStracini/TCC-SENAC)
 
-Projeto curso técnico de informática do SENAC (2011) - Módulo Web - Turma NT (noturno)
+Projeto do curso técnico de informática do SENAC (2011) - Módulo Web - Turma NT (noturno)
+
+---
 
 O projeto consiste em criar um site HTML + CSS + JS sobre uma modalidade de esporte.
 
