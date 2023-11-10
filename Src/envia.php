@@ -1,4 +1,10 @@
 <?php
+
+if (!isset($_POST) || !isset($_POST['nome']) || !isset($_POST['email'])) {
+	header('Location: index.html');
+	die();
+}
+
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $encontrou = $_POST['encontrou'];
@@ -15,10 +21,12 @@ $mensagem = $msg;
 $remetente = $email;
 $destinatario = "contato.TurmaNT@zerocool.com.br";
 $assunto = "Canoagem - " . $assunto;
+
 $headers = "MIME-Version: 1.1\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 $headers .= "From: contato.TurmaNT@zerocool.com.br\r\n";
 $headers .= "Return-Path: contato.TurmaNT@zerocool.com.br\r\n";
+
 if (!mail($destinatario, $assunto, $mensagem, $headers)) {
 	echo "Falha no envio da mensagem!";
 } else {
