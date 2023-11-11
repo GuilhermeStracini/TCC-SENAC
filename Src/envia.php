@@ -1,8 +1,8 @@
 <?php
 
 if (!isset($_POST) || !isset($_POST['nome']) || !isset($_POST['email'])) {
-	header('Location: index.html');
-	exit();
+    header('Location: index.html');
+    exit();
 }
 
 $postfilter = array(
@@ -32,7 +32,7 @@ $headers .= "From: contato.TurmaNT@zerocool.com.br\r\n";
 $headers .= "Return-Path: contato.TurmaNT@zerocool.com.br\r\n";
 
 if (!mail($destinatario, $assunto, $mensagem, $headers)) {
-	echo "Falha no envio da mensagem!";
+    echo "Falha no envio da mensagem!";
 } else {
-	header("Location: obrigado.html");
+    header("Location: obrigado.html");
 }
