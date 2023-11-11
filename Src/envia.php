@@ -5,21 +5,21 @@ if (!isset($_POST) || !isset($_POST['nome']) || !isset($_POST['email'])) {
     exit();
 }
 
-$postfilter = array(
- 'nome' => FILTER_SANITIZE_STRING, 
- 'email' => FILTER_SANITIZE_EMAIL,
- 'encontrou' => FILTER_SANITIZE_STRING,
- 'assunto' => FILTER_SANITIZE_STRING,
- 'mensagem' => FILTER_SANITIZE_STRING
+$filters = array(
+    'nome' => FILTER_SANITIZE_STRING,
+    'email' => FILTER_SANITIZE_EMAIL,
+    'encontrou' => FILTER_SANITIZE_STRING,
+    'assunto' => FILTER_SANITIZE_STRING,
+    'mensagem' => FILTER_SANITIZE_STRING
 );
-$revised = filter_var_array($_POST, $postfilter);
-
-$msg = "<strong>Nome: </strong>" . $revised["nome"] . "<br />";
-$msg .= "<strong>E-mail: </strong>" . $revised["email"] . "<br />";
+$revised = filter_var_array($_POST, $filters);
+$br = "<br />";
+$msg = "<strong>Nome: </strong>" . $revised["nome"] . $br;
+$msg .= "<strong>E-mail: </strong>" . $revised["email"] . $br;
 $msg .= "<strong>Como encontrou o site: </strong>" .
-    $revised["encontrou"] . "<br />";
-$msg .= "<strong>Assunto: </strong>" . $revised["assunto"] . "<br />";
-$msg .= "<strong>Mensagem: </strong>" . $revised["mensagem"] . "<br />";
+    $revised["encontrou"] . $br;
+$msg .= "<strong>Assunto: </strong>" . $revised["assunto"] . $br;
+$msg .= "<strong>Mensagem: </strong>" . $revised["mensagem"] . $br;
 
 $mensagem = $msg;
 $remetente = $revised["email"];
