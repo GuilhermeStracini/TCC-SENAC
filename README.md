@@ -17,7 +17,7 @@ A modalidade escolhida foi `canoagem`.
 
 O projeto também utiliza o `Flash` para exibir vídeos sobre a modalidade de esporte escolhida.
 
-Projeto desenvolvido utilizando: `Adobe Dreamweaver`, `Adobe Fireworks` e `Adobe Flash` que eram as ferramentas que eram utilizadas em sala de aula na época.
+Projeto desenvolvido utilizando: `Adobe Dreamweaver`, `Adobe Fireworks` e `Adobe Flash` que eram as ferramentas utilizadas em sala de aula na época (2011).
 
 O projeto se encontra publicado em [https://guilhermebranco.com.br/TCC-SENAC](https://guilhermebranco.com.br/TCC-SENAC)
 
