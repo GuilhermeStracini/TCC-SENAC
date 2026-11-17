@@ -1,14 +1,22 @@
 name: PHP Linting
 
-on: pull_request
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
-
   php-lint:
     runs-on: ubuntu-latest
-
     steps:
+      - name: Checkout
+        uses: actions/checkout@v7
 
-        - uses: actions/checkout@v7
-
-        - uses: michaelw90/PHP-Lint@master
+      - name: PHP Lint
+        uses: guibranco/github-php-lint-action@v1.1.0
